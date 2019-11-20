@@ -1,0 +1,27 @@
+{
+  "name": "urlbar-results-tester",
+  "version": "1.0.0",
+  "description": "Creates one result of each type in the Firefox address bar for testing purposes.",
+  "author": "Harry Twyford",
+  "license": "MPL-2.0",
+  "webExt": {
+    "build": {
+      "overwriteDest": true
+    },
+    "ignoreFiles": [
+      "**/*~"
+    ],
+    "sourceDir": "src"
+  },
+  "devDependencies": {
+    "web-ext": "*",
+    "eslint": "5.16.0",
+    "eslint-plugin-mozilla": "^2",
+    "eslint-config-prettier": "4.2.0",
+    "eslint-plugin-fetch-options": "0.0.5",
+    "eslint-plugin-no-unsanitized": "3.0.2",
+    "eslint-plugin-prettier": "3.0.1",
+    "eslint-plugin-html": "5.0.3",
+    "prettier": "1.17.0"
+  }
+}
